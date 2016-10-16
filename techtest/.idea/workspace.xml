@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9636c48d-9a59-4c4e-8bf7-4d35ad8f81a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/acceptance/features/cuberoot.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Calculator.php" afterPath="$PROJECT_DIR$/lib/Calculator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/features/Bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/tests/acceptance/features/Bootstrap/FeatureContext.php" />
-    </list>
+    <list default="true" id="9636c48d-9a59-4c4e-8bf7-4d35ad8f81a7" name="Default" comment="" />
     <ignored path="techtest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -302,12 +297,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476633913468</updated>
-      <workItem from="1476633914883" duration="6260000" />
+      <workItem from="1476633914883" duration="6414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6260000" />
+    <option name="totallyTimeSpent" value="6414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="669" extended-state="0" />
