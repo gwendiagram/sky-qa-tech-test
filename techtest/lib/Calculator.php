@@ -22,6 +22,11 @@ class Calculator implements iCalculator {
         return ($a / $b);
     }
 
+    public function cubeRoot($a) {
+        return pow($a, 1/3);
+
+    }
+
     public function pressNumber($number) {
         $this->stack[] = $number;
     }
@@ -52,6 +57,13 @@ class Calculator implements iCalculator {
             $this->evaluateStack();
         }
         $this->op = "/";
+    }
+
+    public function pressCubeRoot() {
+        if(count($this->stack) > 1) {
+            $this->evaluateStack();
+        }
+        $this->op = "^";
     }
 
     public function pressEquals() {

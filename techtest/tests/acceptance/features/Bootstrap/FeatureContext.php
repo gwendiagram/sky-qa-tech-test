@@ -49,10 +49,17 @@ class FeatureContext extends BehatContext {
     }
 
     /**
-     * @When /^I hit "multiply"$/
-     */
+ * @When /^I hit "multiply"$/
+ */
     public function iHitMultiply() {
         $this->calculator->pressMultiply();
+    }
+
+    /**
+     * @When /^I hit "cuberoot"$/
+     */
+    public function iHitCubeRoot() {
+        $this->calculator->pressCubeRoot();
     }
 
     /**
